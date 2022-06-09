@@ -1,0 +1,30 @@
+{
+  "name": "my-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp",
+    "deploy": "gulp build && gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramc1987/my-build.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ramc1987/my-build/issues"
+  },
+  "homepage": "https://github.com/Ramc1987/my-build#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gh-pages": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-pug": "^5.0.0"
+  },
+  "type": "module"
+}
