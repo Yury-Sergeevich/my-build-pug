@@ -13,7 +13,7 @@ import { server } from './server.js';
 
 
 export const styles = () => {
-   return gulp.src('./src/styles/styles.scss', { sourcemaps: true })
+   return gulp.src('./src/scss/styles.scss', { sourcemaps: true })
       .pipe(plumber())
       .pipe(sass().on('error', sass.logError))
       .pipe(postcss([
